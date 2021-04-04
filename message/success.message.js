@@ -1,0 +1,10 @@
+module.exports = {
+    USER_CREATED: 'User was created',
+    USER_DELETED: 'User was deleted',
+    USER_LOGGED: 'User logged',
+    USER_UPDATED: 'USER_UPDATED',
+    USER_ACTIVATED: 'USER_ACTIVATED',
+    TOKENS_REFRESHED: 'TOKENS_REFRESHED',
+    PASSWORD_RESET_EMAIL_SENT: 'PASSWORD_RESET_EMAIL_SENT',
+    RESET_DONE: 'RESET_DONE'
+};

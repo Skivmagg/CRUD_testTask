@@ -1,0 +1,8 @@
+extends template
+block content
+    div
+        | Hello #{userName}. Please activate your account via this link:
+        a(href='http://localhost:5000/auth/activate/#{token}') ACTIVATE ACCOUNT
+        |
+        br
+        | Lets go!

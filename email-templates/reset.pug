@@ -1,0 +1,8 @@
+extends template
+block content
+    div
+        | Hello #{userName}. Follow the onscreen instructions to reset your password :
+        a(href='http://localhost:5000/users/forgotPassword/#{token}') RESET PASSWORD
+        |
+        br
+        | Lets go!
